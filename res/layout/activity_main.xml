@@ -1,0 +1,70 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true" 
+    android:background="@drawable/background"
+    tools:context="com.aliv3nation.bossjobs.MainActivity" >
+
+		<RelativeLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:paddingBottom="@dimen/activity_vertical_margin"
+		    android:paddingLeft="@dimen/activity_horizontal_margin"
+		    android:paddingRight="@dimen/activity_horizontal_margin"
+		    android:paddingTop="@dimen/activity_vertical_margin">
+		
+		        <RelativeLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content" 
+		            android:id="@+id/menu_space">
+		
+		            <ImageButton
+		                android:id="@+id/favorites"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentEnd="true"
+		                android:layout_alignParentRight="true"
+		                android:layout_alignParentTop="true"
+		                android:background="@android:color/transparent"
+		                android:contentDescription="@string/favorites"
+		                android:src="@drawable/favorites"
+		                android:textColor="#2ECCFA" />
+		
+		            <ImageButton
+		                android:id="@+id/search_preferences"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentTop="true"
+		                android:layout_toLeftOf="@+id/favorites"
+		                android:layout_toStartOf="@+id/favorites"
+		                android:background="@android:color/transparent"
+		                android:contentDescription="@string/search_hint"
+		                android:src="@drawable/search_preferences"
+		                android:textColor="#2ECCFA" />
+		        </RelativeLayout>
+		    
+		    <ImageView
+			    android:id="@+id/slideshow"
+			    android:layout_below="@+id/menu_space"
+			    android:layout_width="match_parent"
+			    android:layout_height="200dp"
+			    android:contentDescription="@string/search_title"
+				android:scaleType="fitXY"
+			    android:src="@drawable/ocean_pebbles"/>
+		
+		    <TextView
+		        android:id="@+id/textview"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/slideshow"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="94dp"
+		        android:text="@string/search_title"
+		        android:textColor="#ffffff"
+		        android:textSize="20sp"
+		        android:textStyle="bold" />
+		          
+		</RelativeLayout>
+</ScrollView>

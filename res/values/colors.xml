@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML Color Definitions to be used in Java Design Code to create
+ 		custom colors -->
+<resources>
+    <color name="blood_red">#BB0000</color>
+    <color name="burnt_orange">#BB6008</color>
+    <color name="holo_blue_dark">#ff0099</color>
+    <color name="cyan_blue">#2ECCFA</color>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="jet_black">#000000</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="view_divider_color_2">#DADADA</color>
+</resources>

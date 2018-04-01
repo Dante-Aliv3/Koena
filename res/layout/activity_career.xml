@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	android:background="@drawable/background">
+    
+    <ImageView
+        android:id="@+id/topPic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="0dp"
+        android:contentDescription="@string/search_results"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/suit4" />
+    
+    <EditText
+        android:id="@+id/career_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:queryHint="@string/job_query"
+        android:iconifiedByDefault="false"
+        android:layout_marginTop="20dp"
+        android:padding="0dp"
+        android:textColor="#2ECCFA"
+        android:inputType="text"
+        android:background="#48FFFFFF" 
+        android:imeOptions="actionNone"/>
+    
+    <TextView
+        android:id="@+id/careerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dip"
+        android:paddingEnd="20dip"
+        android:paddingStart="20dip"
+        android:text="@string/search_results"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
